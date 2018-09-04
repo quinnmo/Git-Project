@@ -1,3 +1,5 @@
+
+
 view: events {
   sql_table_name: demo_db.events ;;
 
