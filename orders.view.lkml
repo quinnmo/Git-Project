@@ -1,8 +1,6 @@
 view: orders {
   sql_table_name: demo_db.orders ;;
 
-  dimension: test {}
-
   dimension: id {
     primary_key: yes
     type: number
