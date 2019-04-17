@@ -1,5 +1,7 @@
+explore: persist_for {}
 view: persist_for {
   derived_table: {
+    indexes: ["id"]
     sql:  select * from orders ;;
     persist_for: "5 minutes"
   }
