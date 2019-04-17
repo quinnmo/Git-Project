@@ -1,13 +1,15 @@
 view: products {
   sql_table_name: demo_db.products ;;
 
+  filter: dis_also_a_test {}
+
   dimension: id {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
   }
 
-  dimension: brand {
+  dimension: brand_x {
     type: string
     sql: ${TABLE}.brand ;;
   }

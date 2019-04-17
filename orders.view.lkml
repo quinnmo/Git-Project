@@ -111,6 +111,7 @@ view: orders {
   measure: count_distinct {
     type: count_distinct
     sql: ${id} ;;
+    drill_fields: [status]
   }
 
   measure: average {
