@@ -3,6 +3,10 @@ explore: table_1 {
     sql_on: ${table_1.status} = ${table_3.status} ;;
     relationship: one_to_one
   }
+  join: table_2 {
+    relationship: one_to_one
+    sql_on: ${table_2.status} = ${table_3.status} ;;
+  }
 }
 view: table_1 {
   derived_table: {
